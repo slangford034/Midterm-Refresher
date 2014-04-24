@@ -1,0 +1,35 @@
+/* Global*/
+body {
+	background: url("../img/bg.png");
+}
+
+
+
+/* Navigation */
+li {
+  list-style: none;
+  float: left;
+  margin: 0px 10px 0 10px;
+  }
+
+a:link, 
+a:visited  {
+  text-decoration: none;
+
+  padding:  10px  10px 10px 32px;
+}
+
+a:hover,
+a:active {
+
+}
+
+a:focus {
+  border: 1px dotted #000;
+}
+
+#mozilla a:hover {
+	background: url("../img/firefox.png") no-repeat left center;
+
+}
+
